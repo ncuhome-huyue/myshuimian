@@ -53,7 +53,7 @@ int main() {
         return -1;
     }
     glEnable(GL_DEPTH_TEST);
-    Shader shader("shader/vertice.vert","shader/fragment.frag");
+    Shader shader("vertice.vert","fragment.frag");
 
 
     shader.use();
